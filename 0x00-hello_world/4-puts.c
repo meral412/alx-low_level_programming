@@ -1,7 +1,15 @@
 #include <stdio.h>
+/**
+ *main - Entry point
+ *
+ * Description:print "Programming is like building a multilingual puzzle"
+ * @parameter:no parameters
+ *
+ * Return:Always 0 (Success)
+ */
+
 int main(void)
-/* this is our first code */
 {
-  puts ( "\"Programming is like building a multilingual puzzle" ); 
-  return(0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
