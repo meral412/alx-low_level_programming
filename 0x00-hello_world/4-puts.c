@@ -3,7 +3,6 @@
  *main - Entry point
  *
  * Description:print "Programming is like building a multilingual puzzle"
- * @parameter:no parameters
  *
  * Return:Always 0 (Success)
  */
