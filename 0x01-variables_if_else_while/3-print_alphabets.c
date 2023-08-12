@@ -15,15 +15,13 @@ Alphabet = 'A';
 do {
 putchar(alphabet);
 alphabet++;
-}
-while (
+} while (
 alphabet <= 'z'
 );
 do {
 putchar(Alphabet);
 Alphabet++;
-}
-while (
+} while (
 Alphabet <= 'Z'
 );
 putchar('\n');
