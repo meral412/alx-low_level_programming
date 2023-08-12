@@ -7,24 +7,20 @@
 int main(void)
 {
 int i;
-int j;
 i = 0;
 
 while (i < 10)
 {
-j = i + 1;
-while (j < 10)
-{
+i = i + 1;
+
 putchar(i + '0');
-putchar(j + '0');
-if (i != 8 || j != 9)
+
+if (i != 8 || i != 9)
 {
 putchar(',');
 putchar(' ');
 }
-j++;
 }
 i++;
-}
 return (0);
 }
