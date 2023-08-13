@@ -4,18 +4,15 @@
  * Return: Always 0 (Success)
  */
 
+
 int main(void)
 {
-char y;
-y = 'a';
-}
-{while
-
-(y <= 'z');
-putchar(y);
-y++;
+char c = 'a';
+while (c <= 'z')
 {
+putchar(c);
+c++;
+}
 putchar('\n');
-
 return (0);
 }
