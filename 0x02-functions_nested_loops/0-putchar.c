@@ -2,15 +2,15 @@
 #include <stdio.h>
 
 /*
- * main - Entry Point
- * Description: 'print _putchar to stdout library'
+ * main - Entry Point function used
+ * Description:'print _putchar to stdout'
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	_putchar('_');
-	_putchar('P');
+	_putchar('p');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
