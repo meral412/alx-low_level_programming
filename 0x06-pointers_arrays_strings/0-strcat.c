@@ -17,10 +17,10 @@ end++;
 }
 while (*src != '\0')
 {
-*end = *src;  
+*end = *src;
 end++;
 src++;
-}    
+}
 *end = '\0';
 return (dest);
 }
