@@ -14,7 +14,7 @@ while (!(str[limit] >= 'a' && str[limit] <= 'z'))
 {
 limit++;
 }
-if (str[limit - 1] == ' ' ||
+if (str[limit - 1] == ' '||
 str[limit - 1] == '\t' ||
 str[limit - 1] == ';' ||
 str[limit - 1] == '\n' ||
